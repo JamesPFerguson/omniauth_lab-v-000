@@ -15,7 +15,7 @@ end
 
 
 def auth
-
+  request.env['omniauth.auth']
 end
 
 
